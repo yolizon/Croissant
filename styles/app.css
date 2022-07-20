@@ -27,3 +27,13 @@ h2 {
   margin-top: 5px;
   margin-right: 10px;
 }
+@media (max-width: 576px) {
+  .photo-container img {
+    width: 200px;
+    height: 300px;
+    margin-left: 70px;
+  }
+  .info-cards {
+    margin-left: 8px;
+  }
+}
